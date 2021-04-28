@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+?xml version="1.0"?>
 <Container version="2">
   <Name>ChiaNode</Name>
   <Repository>ghcr.io/chia-network/chia:latest</Repository>
@@ -53,5 +53,5 @@
   <Config Name="Plots Path" Target="/plots" Default="" Mode="rw" Description="Plot Storage; /plots" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/chia</Config>
   <Config Name="Keys Path" Target="/root/keys" Default="" Mode="ro" Description="Keyfiles; /root/keys" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/chia</Config>
   <Config Name="Keyfile" Target="keys" Default="" Mode="" Description="Path to passed keys" Type="Variable" Display="always" Required="true" Mask="false">/root/keys/keyfile</Config>
-  <Config Name="Keyfile" Target="keys" Default="" Mode="" Description="Path to config" Type="Variable" Display="always" Required="true" Mask="false">/root/.chia</Config>
+  <Config Name="Config" Target="keys" Default="" Mode="" Description="Path to config" Type="Variable" Display="always" Required="true" Mask="false">/root/.chia</Config>
 </Container>
