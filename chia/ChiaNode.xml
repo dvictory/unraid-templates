@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Container version="2">
+<Containers>
   <Name>ChiaNode</Name>
   <Repository>ghcr.io/chia-network/chia:latest</Repository>
   <Registry/>
@@ -61,4 +61,4 @@
   <Config Name="Keyfile" Target="keys" Default="" Mode="" Description="Path to passed keys" Type="Variable" Display="always" Required="true" Mask="false">/root/keys/keyfile</Config>
   <Config Name="Config" Target="/root/.chia" Default="" Mode="rw" Description="Path to config; /root/.chia" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/chia/config</Config>
   <Config Name="Chia Port" Target="8444" Default="" Mode="tcp" Description="Container Port: 8444" Type="Port" Display="always" Required="true" Mask="false">8444</Config>
-</Container>
+</Containers>
