@@ -1,10 +1,9 @@
 <?xml version="1.0"?>
-<Container>
-  <Name>ChiaNode</Name>
+<Container version="2">
+  <Name>chianode</Name>
   <Repository>ghcr.io/chia-network/chia:latest</Repository>
-  <Registry/>
-  <Network>semimetallic</Network>
-  <MyIP/>
+  <Registry>https://ghcr.io/chia-network/chia/</Registry>
+  <Network>bridge</Network>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support/>
@@ -12,17 +11,12 @@
   <Overview/>
   <Category>Security: Tools: Other:</Category>
   <WebUI/>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/dvictory/unraid-templates/main/chia/ChiaNode.xml</TemplateURL>
   <Icon>https://pbs.twimg.com/profile_images/1106297914924523520/zV5K5y9f_400x400.png</Icon>
   <ExtraParams>--hostname=chia</ExtraParams>
-  <PostArgs/>
-  <CPUset/>
-  <DateInstalled>1619628436</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
   <Description/>
   <Networking>
-    <Mode>semimetallic</Mode>
+    <Mode>bridge</Mode>
     <Publish>
       <Port>
         <HostPort>8444</HostPort>
